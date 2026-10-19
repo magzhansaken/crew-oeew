@@ -1,0 +1,31 @@
+{
+ "day": 28,
+ "method": "lgbm_abs",
+ "n_common_features": 43,
+ "kendall_tau_mean": 0.5728295730237083,
+ "kendall_tau_min": 0.4742382999268477,
+ "spearman_mean": 0.7342984678431026,
+ "top10_jaccard_mean": 0.6217909075051931,
+ "top_features": {
+  "n_missed": 0.28541,
+  "mean_days_early": 0.24683,
+  "days_to_next_deadline": 0.19651,
+  "active_days": 0.12896,
+  "unique_res": 0.12763,
+  "days_since_active": 0.09064,
+  "longest_gap": 0.09034,
+  "pre_clicks": 0.09003,
+  "c_forumng": 0.07853,
+  "num_of_prev_attempts": 0.07568,
+  "c_oucontent": 0.06399,
+  "c_page": 0.06246
+ },
+ "family_share_mean": {
+  "CAL": 0.2199,
+  "PRE": 0.0431,
+  "REG": 0.0749,
+  "SUB": 0.1169,
+  "TRD": 0.1296,
+  "VLE": 0.4155
+ }
+}

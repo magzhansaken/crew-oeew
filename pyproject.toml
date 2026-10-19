@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "oeew"
+version = "1.0.0"
+description = "Cohort-relative early warning for courses without outcome labels (OULAD experiments)"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=1.26", "pandas>=2.1", "scipy>=1.11", "scikit-learn>=1.4", "lightgbm>=4.3", "catboost>=1.2",
+  "pyarrow>=14", "matplotlib>=3.8", "shap>=0.45",
+]
+
+[project.optional-dependencies]
+seq = ["torch>=2.2"]
+test = ["pytest>=8"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

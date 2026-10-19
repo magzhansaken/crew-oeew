@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the article and the OULAD data descriptor."
+title: "CREW: cohort-relative early warning for courses without outcome labels (code and results)"
+version: 1.0.0
+date-released: 2026-10-15
+license: MIT
+authors:
+  - name: "Anonymous (withheld for double-blind review)"
+references:
+  - type: article
+    title: "Open University Learning Analytics dataset"
+    authors:
+      - family-names: Kuzilek
+        given-names: Jakub
+      - family-names: Hlosta
+        given-names: Martin
+      - family-names: Zdrahal
+        given-names: Zdenek
+    journal: "Scientific Data"
+    volume: 4
+    start: 170171
+    year: 2017
+    doi: "10.1038/sdata.2017.171"
+  - type: dataset
+    title: "Open University Learning Analytics Dataset (UCI Machine Learning Repository, id 349)"
+    doi: "10.24432/C5KK69"
+    license: CC-BY-4.0

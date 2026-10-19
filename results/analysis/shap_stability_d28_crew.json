@@ -1,0 +1,32 @@
+{
+ "day": 28,
+ "method": "crew",
+ "n_common_features": 82,
+ "kendall_tau_mean": 0.5194522997127549,
+ "kendall_tau_min": 0.40475832411898816,
+ "spearman_mean": 0.683089593147784,
+ "top10_jaccard_mean": 0.4026251526251526,
+ "top_features": {
+  "r_n_missed": 0.20719,
+  "r_mean_days_early": 0.135,
+  "z_active_ratio": 0.07948,
+  "z_unique_res": 0.07476,
+  "r_active_days": 0.07185,
+  "r_unique_res": 0.06438,
+  "z_clicks_total": 0.06313,
+  "r_num_of_prev_attempts": 0.05992,
+  "r_c_questionnaire": 0.05683,
+  "z_days_since_active": 0.05483,
+  "r_c_ouwiki": 0.04935,
+  "r_n_late": 0.0475
+ },
+ "family_share_mean": {
+  "CAL": 0.001,
+  "PRE": 0.0026,
+  "REG": 0.004,
+  "REL": 0.9518,
+  "SUB": 0.004,
+  "TRD": 0.0079,
+  "VLE": 0.0286
+ }
+}

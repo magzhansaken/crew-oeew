@@ -1,0 +1,121 @@
+[
+ {
+  "fold": "LOMO:AAA",
+  "n_train": 28467,
+  "n_test": 727,
+  "set_index": 0,
+  "cfg": {
+   "learning_rate": 0.05,
+   "min_child_samples": 50,
+   "n_estimators": 300,
+   "num_leaves": 15
+  },
+  "inner_auroc": 0.6533868432210912,
+  "t_select": 14.750073432922363,
+  "t_fit_mean": 1.2431313514709472,
+  "t_infer_mean": 0.01103348731994629,
+  "n_features": 43
+ },
+ {
+  "fold": "LOMO:BBB",
+  "n_train": 22312,
+  "n_test": 6816,
+  "set_index": 0,
+  "cfg": {
+   "learning_rate": 0.05,
+   "min_child_samples": 200,
+   "n_estimators": 300,
+   "num_leaves": 15
+  },
+  "inner_auroc": 0.6513964703851101,
+  "t_select": 19.335880041122437,
+  "t_fit_mean": 1.1189839839935303,
+  "t_infer_mean": 0.06942057609558105,
+  "n_features": 43
+ },
+ {
+  "fold": "LOMO:CCC",
+  "n_train": 23283,
+  "n_test": 3895,
+  "set_index": 0,
+  "cfg": {
+   "learning_rate": 0.05,
+   "min_child_samples": 50,
+   "n_estimators": 300,
+   "num_leaves": 15
+  },
+  "inner_auroc": 0.6447163247375961,
+  "t_select": 14.42153000831604,
+  "t_fit_mean": 1.061903429031372,
+  "t_infer_mean": 0.03533940315246582,
+  "n_features": 43
+ },
+ {
+  "fold": "LOMO:DDD",
+  "n_train": 22915,
+  "n_test": 5595,
+  "set_index": 0,
+  "cfg": {
+   "learning_rate": 0.05,
+   "min_child_samples": 50,
+   "n_estimators": 300,
+   "num_leaves": 15
+  },
+  "inner_auroc": 0.6457849381086493,
+  "t_select": 14.855634689331055,
+  "t_fit_mean": 0.9736922740936279,
+  "t_infer_mean": 0.05545244216918945,
+  "n_features": 43
+ },
+ {
+  "fold": "LOMO:EEE",
+  "n_train": 25515,
+  "n_test": 2684,
+  "set_index": 0,
+  "cfg": {
+   "learning_rate": 0.05,
+   "min_child_samples": 50,
+   "n_estimators": 300,
+   "num_leaves": 15
+  },
+  "inner_auroc": 0.6138706427596745,
+  "t_select": 12.510509967803955,
+  "t_fit_mean": 0.9361931324005127,
+  "t_infer_mean": 0.027103137969970704,
+  "n_features": 43
+ },
+ {
+  "fold": "LOMO:FFF",
+  "n_train": 21664,
+  "n_test": 7018,
+  "set_index": 0,
+  "cfg": {
+   "learning_rate": 0.05,
+   "min_child_samples": 50,
+   "n_estimators": 300,
+   "num_leaves": 15
+  },
+  "inner_auroc": 0.6369681813251338,
+  "t_select": 11.920028686523438,
+  "t_fit_mean": 1.0370641231536866,
+  "t_infer_mean": 0.072515869140625,
+  "n_features": 43
+ },
+ {
+  "fold": "LOMO:GGG",
+  "n_train": 26683,
+  "n_test": 2461,
+  "set_index": 0,
+  "cfg": {
+   "learning_rate": 0.05,
+   "min_child_samples": 200,
+   "n_estimators": 300,
+   "num_leaves": 15
+  },
+  "inner_auroc": 0.6622870077976035,
+  "t_select": 14.360649824142456,
+  "t_fit_mean": 1.2665260791778565,
+  "t_infer_mean": 0.029045248031616212,
+  "n_features": 43
+ }
+]

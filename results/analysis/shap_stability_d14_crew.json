@@ -1,0 +1,26 @@
+{
+ "day": 14,
+ "method": "crew",
+ "n_common_features": 82,
+ "kendall_tau_mean": 0.5470488057674814,
+ "kendall_tau_min": 0.41446884413536916,
+ "spearman_mean": 0.7126501734897296,
+ "top10_jaccard_mean": 0.336910832709152,
+ "top_features": {
+  "r_c_questionnaire": 0.08014,
+  "r_pre_clicks": 0.07942,
+  "z_clicks_total": 0.0775,
+  "r_num_of_prev_attempts": 0.07681,
+  "r_clicks_total": 0.07194,
+  "r_frac_due_submitted": 0.07152,
+  "z_pre_clicks": 0.06485,
+  "r_active_days": 0.06272,
+  "z_clicks_recent": 0.05684,
+  "r_unique_res": 0.05618,
+  "z_daily_mean": 0.05238,
+  "z_c_forumng": 0.04498
+ },
+ "family_share_mean": {
+  "REL": 1.0
+ }
+}

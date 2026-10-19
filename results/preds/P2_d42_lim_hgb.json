@@ -1,0 +1,14 @@
+[
+ {
+  "fold": "FWD:2013->2014",
+  "n_train": 10328,
+  "n_test": 15408,
+  "set_index": 0,
+  "cfg": {},
+  "inner_auroc": null,
+  "t_select": 9.5367431640625e-06,
+  "t_fit_mean": 0.564628267288208,
+  "t_infer_mean": 0.06365294456481933,
+  "n_features": 31
+ }
+]

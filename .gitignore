@@ -1,0 +1,15 @@
+data/
+results/features/
+results/preds_v0/
+__pycache__/
+*.pyc
+.venv/
+*.log
+results/preds/*.parquet
+results/oof/
+results/eval/rows/
+results/eval/files/
+results/analysis/cache/
+results/*.log
+experiments/queue*.sh
+docs/

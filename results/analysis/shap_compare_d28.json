@@ -1,0 +1,43 @@
+{
+ "day": 28,
+ "n_common_base": 41,
+ "crew": {
+  "kendall_tau_mean": 0.5400696864111497,
+  "kendall_tau_min": 0.4097560975609756,
+  "top10_jaccard_mean": 0.43886272457701025,
+  "top1": {
+   "n_missed": 5,
+   "mean_days_early": 2
+  },
+  "top_base": {
+   "n_missed": 0.0969,
+   "mean_days_early": 0.0736,
+   "unique_res": 0.0586,
+   "active_days": 0.0423,
+   "days_since_active": 0.0407,
+   "active_ratio": 0.0375,
+   "clicks_total": 0.0335,
+   "pre_clicks": 0.0318
+  }
+ },
+ "lgbm_abs": {
+  "kendall_tau_mean": 0.578604442969078,
+  "kendall_tau_min": 0.44051258961840944,
+  "top10_jaccard_mean": 0.6259137687709115,
+  "top1": {
+   "n_missed": 5,
+   "mean_days_early": 1,
+   "active_days": 1
+  },
+  "top_base": {
+   "n_missed": 0.1238,
+   "mean_days_early": 0.1063,
+   "active_days": 0.0566,
+   "unique_res": 0.0558,
+   "days_since_active": 0.0398,
+   "longest_gap": 0.0397,
+   "pre_clicks": 0.0391,
+   "c_forumng": 0.0344
+  }
+ }
+}

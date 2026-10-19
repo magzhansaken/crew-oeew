@@ -1,0 +1,107 @@
+[
+ {
+  "fold": "LOMO:AAA",
+  "epochs": [
+   5,
+   4,
+   5,
+   5,
+   8
+  ],
+  "t_fit_mean": 5.717133283615112,
+  "n_train": 16758,
+  "n_val": 9297,
+  "n_test": 722,
+  "n_features": 117
+ },
+ {
+  "fold": "LOMO:BBB",
+  "epochs": [
+   6,
+   7,
+   6,
+   11,
+   11
+  ],
+  "t_fit_mean": 5.3406366348266605,
+  "n_train": 10860,
+  "n_val": 9293,
+  "n_test": 6568,
+  "n_features": 117
+ },
+ {
+  "fold": "LOMO:CCC",
+  "epochs": [
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "t_fit_mean": 3.0016703605651855,
+  "n_train": 14520,
+  "n_val": 8005,
+  "n_test": 3676,
+  "n_features": 117
+ },
+ {
+  "fold": "LOMO:DDD",
+  "epochs": [
+   4,
+   13,
+   9,
+   5,
+   6
+  ],
+  "t_fit_mean": 5.0203040599822994,
+  "n_train": 11520,
+  "n_val": 9252,
+  "n_test": 5413,
+  "n_features": 117
+ },
+ {
+  "fold": "LOMO:EEE",
+  "epochs": [
+   4,
+   13,
+   7,
+   6,
+   1
+  ],
+  "t_fit_mean": 5.220126104354859,
+  "n_train": 11520,
+  "n_val": 12087,
+  "n_test": 2578,
+  "n_features": 117
+ },
+ {
+  "fold": "LOMO:FFF",
+  "epochs": [
+   4,
+   13,
+   9,
+   9,
+   6
+  ],
+  "t_fit_mean": 4.956109285354614,
+  "n_train": 11520,
+  "n_val": 7946,
+  "n_test": 6721,
+  "n_features": 117
+ },
+ {
+  "fold": "LOMO:GGG",
+  "epochs": [
+   5,
+   6,
+   4,
+   4,
+   6
+  ],
+  "t_fit_mean": 5.217398834228516,
+  "n_train": 16103,
+  "n_val": 7989,
+  "n_test": 2450,
+  "n_features": 117
+ }
+]
